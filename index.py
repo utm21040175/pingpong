@@ -102,7 +102,7 @@ def main():
                 speed[1] = -speed[1]
             if (baterect.colliderect(ballrect)):##Esto es para que cuando la pelota colicione con el bat cambie de direccion 
                 golpe_sonido.play()
-                speed[1] = -speed[1] - 0.2
+                speed[0] = -speed[0] - 0.2
             if(bateDrect.colliderect(ballrect)):
                 golpe_sonido.play()
                 speed[0] = -speed[0] - 0.2
